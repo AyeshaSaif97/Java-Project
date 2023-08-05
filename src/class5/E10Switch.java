@@ -2,6 +2,9 @@ package class5;
 
 public class E10Switch {
     public static void main(String[] args) {
+        //good for integers, string ,char
+        //cant use relational operators >=
+        //cant use logical operators
 
         int day = 5;
         switch (day) {
