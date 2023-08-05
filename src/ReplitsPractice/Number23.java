@@ -21,7 +21,7 @@ The value is false
         Scanner scanner=new Scanner(System.in);
         System.out.println("Input the boolean value");
         boolean value=scanner.nextBoolean();
-        if(value=true){
+        if(value==true){
             System.out.println("The value is true");
         }else{
             System.out.println("The value is false");

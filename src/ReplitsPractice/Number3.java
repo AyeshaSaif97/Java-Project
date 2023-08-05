@@ -10,11 +10,11 @@ public class Number3 {
         //- **On same line** print value of the variable "myBoolean"
         //# Expected Output:
         //99999.99false
-        boolean myBoolean=false;
-        double money=99999.99;
+        boolean myBoolean = false;
+        double money = 99999.99;
 
-        System.out.println(money+""+myBoolean);
-
+        System.out.println(money + "" + myBoolean);
+    }
 
     }
-}
+
