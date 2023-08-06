@@ -7,7 +7,7 @@ public class T10CalculatorSwitchStatement {
         /*
         Using scanner class create calculator.
         Allow user to enter 2 numbers and operator(+,-,*,/). Based on operator provide the result to user.
-Please complete this assignment in 2 ways: using if statement and switch case.
+Please complete this assignment in 2 ways: using  switch case.
          */
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a number");
@@ -29,10 +29,10 @@ Please complete this assignment in 2 ways: using if statement and switch case.
                 break;
             case '/':
                 System.out.println(a / b);
+                break;
             default:
                 System.out.println("wrong data");
         }
-
 
     }
 }

@@ -12,13 +12,10 @@ public class T5Country {
 
         switch (country) {
             case "Canada":
-                System.out.println("French");
+                System.out.println("French||English");
                 break;
             case "Pakistan":
                 System.out.println("Urdu");
-                break;
-            case "UK":
-                System.out.println("English");
                 break;
             case "UAE":
                 System.out.println("Arabic");

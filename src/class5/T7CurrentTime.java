@@ -17,7 +17,6 @@ if hour between 21-24 --> Night
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter current time");
         Double time = input.nextDouble();
-
         if (time >= 1 && time <= 11) {
             System.out.println("Morning");
         } else if (time >= 12 && time <= 15) {
@@ -30,6 +29,4 @@ if hour between 21-24 --> Night
             System.out.println("Wrong time Format");
         }
     }
-
-
 }
