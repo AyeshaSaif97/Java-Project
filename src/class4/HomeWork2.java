@@ -15,18 +15,5 @@ public class HomeWork2 {
         } else {
             System.out.println("We will offer you to get a learner's permit");
         }
-
-
-
-
     }
-
-
-
-
-
-
-
-
-
     }
