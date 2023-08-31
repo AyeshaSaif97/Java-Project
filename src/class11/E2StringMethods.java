@@ -8,7 +8,6 @@ public class E2StringMethods {
 
         int sum = 0;
 
-
         for (int i = 0; i < str.length(); i++) {
             // the reason we are not using -1 is because we are writing < less not this <
             //System.out.println(str.charAt(i));
