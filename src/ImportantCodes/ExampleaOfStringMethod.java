@@ -1,4 +1,4 @@
-package Practicing;
+package ImportantCodes;
 
 public class ExampleaOfStringMethod {
     public static void main(String[] args) {

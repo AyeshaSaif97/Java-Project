@@ -1,6 +1,6 @@
-package Practicing;
+package ImportantCodes;
 
-public class practice {
+public class LaptopAndPagesUsingLoops {
     public static void main(String[] args) {
 
 

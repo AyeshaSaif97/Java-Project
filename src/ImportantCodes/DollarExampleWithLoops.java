@@ -1,6 +1,6 @@
-package Practicing;
+package ImportantCodes;
 
-public class T2NestedLoops {
+public class DollarExampleWithLoops {
     public static void main(String[] args) {
         /*
         $$$$

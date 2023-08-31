@@ -5,7 +5,7 @@ public class E12DArrays {
 
 
         String[][] names =
-                {{"Hind", "Mikhail", "Ismael", "Ahmed"},
+                {       {"Hind", "Mikhail", "Ismael", "Ahmed"},
                         {"John", "Bob", "Adam", "Tamim"},
                         {"Joke ", "Laugh", "John Ahmed", "Mohammed"},
                         {"Gui", "Backend", "Front", "API"},

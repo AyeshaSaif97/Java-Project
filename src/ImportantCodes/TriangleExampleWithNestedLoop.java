@@ -1,6 +1,6 @@
-package Practicing;
+package ImportantCodes;
 
-public class T1NestedLoops {
+public class TriangleExampleWithNestedLoop {
     public static void main(String[] args) {
         /*
         1

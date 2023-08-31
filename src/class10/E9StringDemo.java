@@ -6,7 +6,7 @@ public class E9StringDemo {
         String str = "Today is a Java Class";
         System.out.println(str.contains("Java"));
         System.out.println(str.contains("Python"));
-        System.out.println(str.contains("a"));
+        System.out.println(str.contains("o"));
 
 
 
