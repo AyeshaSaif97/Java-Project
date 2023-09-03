@@ -15,10 +15,11 @@ Examples:
 sumEvenToX(5) ==> 6
 sumEvenToX(8) ==> 20
      */
-    int sumEvenTox(int x) {
-        int sum = 0;
-        for (int i = 2; i <= x; i += 2) {
-            sum += i;
+    static int sumEvenTox(int x) {
+        //2 4 6 8 10
+    int sum = 0;
+        for (int i = 2; i <= x; i=i+2) {
+            sum=sum+i;
         }
         return sum;
 
@@ -27,7 +28,7 @@ sumEvenToX(8) ==> 20
 
     public static void main(String[] args) {
         Number117 obj = new Number117();
-        System.out.println(obj.sumEvenTox(54));
+        System.out.println(obj.sumEvenTox(10));
     }
 }
 

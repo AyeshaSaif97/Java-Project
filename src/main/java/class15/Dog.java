@@ -7,8 +7,12 @@ public class Dog {
     private String color;
     private int age;
 
+    //why we need instance above? so we can store data and share data
+    //whenever we use static we dont need to create object of the class.
+    //why we make them private? so no one can change it and for security reasons
+    //that is why we have constructors
     //no written type for constructor
-    //following is a constructor'//for constructor we dont need void
+    //following is a constructor'//for constructor we don't need void
     //constructor helps to filter out information
     //best practice to use with private
     //below is an example of constructor

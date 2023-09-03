@@ -17,6 +17,8 @@ d1.printInfo();
 
         Scanner scanner = new Scanner(System.in);
 
+        Dog d3=new Dog("Lessi","Husky","Brown",43);
+
 
 
 

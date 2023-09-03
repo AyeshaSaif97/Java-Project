@@ -11,6 +11,7 @@ public class Number4 {
         //#
         System.out.println("*");
         System.out.println("**");
+        System.out.println("***");
         System.out.println("##");
         System.out.println("#");
 

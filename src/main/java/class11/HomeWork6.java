@@ -22,3 +22,20 @@ public class HomeWork6 {
 
     }
 }
+
+
+
+/*
+String str1="Shawn";
+String str2="Pease";
+str1=str1+str2;
+str2=str1.substring(0,str1.length()-str2.length());
+SOUT(str2);
+
+ */
+
+
+
+
+
+

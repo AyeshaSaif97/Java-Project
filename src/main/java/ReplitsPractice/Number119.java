@@ -25,7 +25,9 @@ censorLetter("trick or treat",'t') ==> "*rick or *rea*"
 
     public static void main(String[] args) {
         Number119 obj= new Number119();
-        System.out.println(obj.censorLetter("Ayesha",'e'));
+        System.out.println(obj.censorLetter("Computer science",'e'));
+        System.out.println(obj.censorLetter("Technology",'t'));
+
 
     }
     }

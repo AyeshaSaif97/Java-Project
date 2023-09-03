@@ -12,6 +12,7 @@ public class Number2 {
 
         //Hint: You are missing something that is needed by java to run your script
         int age=4;
+        age=4;
         System.out.println(age);
 
 
