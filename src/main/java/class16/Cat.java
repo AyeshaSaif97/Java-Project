@@ -3,36 +3,48 @@ package class16;
 public class Cat {
 
     private String name;
-    private String breed;
     private int age;
+    private double weight;
     private String color;
+    private String breed;
     private char gender;
-    private String eyeColor;
 
 
-    public Cat() {
+
+    public Cat(){
     }
 
-    public Cat(String name, String breed, int age) {
+    public Cat(String name, int age, double weight) {
         //call to the constructor should be the first line
         this.name = name;
-        this.breed = breed;
-        this.age = age;
+        this.age=age;
+        this.weight=weight;
     }
 
-    public Cat(String name, String breed, int age, String color, char gender, String eyeColor) {
-        this(name, breed, age);
-        this.color = color;
-        this.gender = gender;
-        this.eyeColor = eyeColor;
+    public Cat (String name, int age, double weight, String color){
+        this(name,age,weight);
+        this.color=color;
+    }
+
+    public Cat (String name, int age, double weight, String color, String breed){
+        this(name, age, weight, color);
+        this.breed=breed;
+    }
+
+
+    public Cat(String name, int age, double weight, String color, String breed, char gender) {
+        this(name,age,weight);
+        this.color=color;
+        this.breed=breed;
+        this.gender=gender;
+
     }
 
     public void printInfo() {
-        System.out.println(name + " " + breed + " " + age + " " + color + " " + gender + " " + eyeColor);
+        System.out.println(name + " " + age + " " + weight + " " + color + " " + breed + " " + gender);}
     }
 
 
-}
 
 
 
