@@ -12,8 +12,11 @@ public class E12DArrays {
 
                 };
 
-        System.out.println(names[2][2]);
-        System.out.println(names[1][3]);
+        System.out.println(names[0][0]);
+        System.out.println(names[1][0]);
+        System.out.println(names[2][0]);
+        System.out.println(names[3][0]);
+
 
 
     }
