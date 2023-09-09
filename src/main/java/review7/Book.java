@@ -12,7 +12,7 @@ public class Book {
 
     //static is a class level variable
     static int totalBooks;
-    static String type="AudioBook";
+    static String type = "AudioBook";
 
     /*
     .syntax of method
