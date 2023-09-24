@@ -11,6 +11,7 @@ public class User {
         setName(name);
         setUserName(userName);
         setPassword(password);
+        //we need to use set methods inside constructors when you use if statements
     }
 
     public String getName() {

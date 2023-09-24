@@ -4,7 +4,7 @@ package class23;
 
     public class BankAccount {
         private String name;
-        final private long bankAccountNumber;
+        final private long bankAccountNumber; 
         private double balance;
         final private String userName;
         private String password;
@@ -20,11 +20,12 @@ package class23;
             this.accountType = accountType;
         }
         public BankAccount(long bankAccountNumber, String userName,
-                           String password,String accountType) {
+                           String password, String accountType ) {
             this.bankAccountNumber = bankAccountNumber;
             this.userName = userName;
             this.password = password;
             this.accountType=accountType;
+
 
         }
         public BankAccount(String userName,
@@ -34,6 +35,7 @@ package class23;
             this.userName = userName;
             this.accountType = accountType;
         }
+
 
         public String getName(){
             return name;

@@ -1,25 +1,16 @@
 package class23;
 
 public class RegistrationTester {
+
+
     public static void main(String[] args) {
-        Registration r = new Registration("fun@yahoo.com",
-                "funfunfun", "fun123456");
+        Registration r = new Registration("giulia@yahoo.com", "User123", "Pass123");
 
-        System.out.println(r.getEmail());
-        System.out.println(r.getUserName());
-        System.out.println(r.getPassword());
-        r.setEmail("Ehab@yahoo.com");
-        r.setUserName("Ehab12345");
-        r.setPassword("Ehab12345");
-        System.out.print("Email: ");
-        System.out.println(r.getEmail());
-        System.out.print("User name: ");
-        System.out.println(r.getUserName());
-        System.out.print("Password: ");
-        System.out.println(r.getPassword());
 
+        System.out.println("Email: " + r.getEmail());
+        System.out.println("Username: " + r.getUsername());
+        System.out.println("Password: " + r.getPassword());
     }
-
 }
 
 
