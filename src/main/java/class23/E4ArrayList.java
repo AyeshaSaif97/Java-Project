@@ -14,6 +14,10 @@ public class E4ArrayList {
         System.out.println(arr.contains("Ace"));
         System.out.println(arr.contains("sdsd"));
         System.out.println(arr.indexOf("Habib"));
+        System.out.println(arr.remove(0));
+        System.out.println(arr.remove(2));
+
+        System.out.println(arr);
 
 
 
