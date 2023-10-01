@@ -9,7 +9,7 @@ Write a logic to retrieve an employee who gets the highest salary.
 Output should be in the below format
 John Smith=$100000
  */
-public class EmployeeName {
+public class HighestSalary {
     public static void main(String[] args) {
         HashMap<String,Integer> employee= new HashMap<>();
         employee.put("Ayesha Saif",10000000);
