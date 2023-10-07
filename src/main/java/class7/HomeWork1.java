@@ -10,7 +10,6 @@ Create an array of chars and store grades into it: A,B,C,D. Then print a grade B
         System.out.println(grades[1]);
 
 
-
         //second method
 
         char[] gradess = new char[4];

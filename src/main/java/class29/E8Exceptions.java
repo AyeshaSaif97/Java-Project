@@ -1,0 +1,14 @@
+package class29;
+
+import java.io.FileInputStream;
+
+public class E8Exceptions {
+    public static void main(String[] args) {
+
+        try(FileInputStream fileInputStream= new FileInputStream("C:\\Users\\ayesh\\IdeaProjects\\SDETJava\\Files\\Sales.xlsx")){
+
+        } catch (Exception f) {
+            System.out.println("Please check the file path");
+        }
+    }
+}
