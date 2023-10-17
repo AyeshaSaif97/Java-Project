@@ -1,6 +1,6 @@
 package class1;
 
-import java.sql.SQLOutput;
+
 
 public class SyntaxProgrammer {
     public static void main(String[] args) {

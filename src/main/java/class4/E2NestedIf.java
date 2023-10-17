@@ -12,9 +12,6 @@ public class E2NestedIf {
                 System.out.println("Lets go with Red Nike shoes");
             }else {
                 System.out.println("Lets go with the blue ones");
-
-
-
             }
 
 

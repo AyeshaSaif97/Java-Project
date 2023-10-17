@@ -1,6 +1,7 @@
 package class29;
 
-public class PracticeNested {
+public class
+PracticeNested {
     public static void main(String[] args) {
         System.out.println("1");
 

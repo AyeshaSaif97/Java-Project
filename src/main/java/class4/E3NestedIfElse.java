@@ -4,7 +4,7 @@ public class E3NestedIfElse {
     public static void main(String[] args) {
 
 
-            double accountBalance = 15000;
+            double accountBalance = 510000;
 
             if (accountBalance > 28000) {
                 System.out.println("We can afford a normal toyota");

@@ -12,38 +12,42 @@ import java.util.List;
 import java.util.Map;
 
 public class ExcelReader {
-    public static List<Map<String, String>> readExcelData(String path, String sheetName) throws IOException {
-        //location of the file
+    public static List<Map<String,String>> readExcelData(String path,String sheetName)  {
+        //Location of the file
+        List<Map<String,String>> empListMap=new ArrayList<>();
+        try (  FileInputStream fis = new FileInputStream(path);
+               // That special Class which knows how to handle Excel files
+               XSSFWorkbook workbook = new XSSFWorkbook(fis);){
 
+            //Accessing the sheet from the xlsx file
+            Sheet sheet = workbook.getSheet(sheetName);
+            // A Nested Data Structure that is going to hold all the info from the sheet
 
-        //class that brings the data in the form of bytes into memory
-        FileInputStream fis = new FileInputStream(path);
-        //that special class which knows how to handle Excel files
-        XSSFWorkbook workbook = new XSSFWorkbook(fis);
-        //Accessing the sheet from the xlsx file
-        Sheet sheet = workbook.getSheet(sheetName);
-        // A Nested Data Structure that is going to hold all the info from the sheet
-        List<Map<String, String>> empListMap = new ArrayList<>();
-        Row headerRow = sheet.getRow(0); //header for every single iteration
-        for (int i = 1; i < sheet.getPhysicalNumberOfRows(); i++) {
-            //getting all the rows one by one and placing them inside the row variable
-            Row row = sheet.getRow(i);
-            //Create new map every time to store each row
-            Map<String, String> rowMap = new LinkedHashMap<>();
-            //inner loop to go through all the cells from each row
-            for (int j = 0; j < row.getPhysicalNumberOfCells(); j++) {
-                //getting keys from header row
-                String keyCell = headerRow.getCell(j).toString();
-                //getting values from the row
-                String valueCell = row.getCell(j).toString();
-                //storing keys and values in the map
-                rowMap.put(keyCell, valueCell);
+            Row headerRow=sheet.getRow(0);
+            for (int i = 1; i < sheet.getPhysicalNumberOfRows(); i++) {
+                //getting all of the rows one by one and placing them inside the row variable
+                Row row = sheet.getRow(i);
+                // Create new map every time to store each row
+                Map<String,String> rowMap=new LinkedHashMap<>();
+                //inner loop to go through all the cells from each row
+                for (int j = 0; j < row.getPhysicalNumberOfCells(); j++) {
+                    // getting keys from header row
+                    String keyCell=headerRow.getCell(j).toString();
+                    //getting values from the row
+                    String valueCell=row.getCell(j).toString();
+                    //storing keys and values in the map
+                    rowMap.put(keyCell,valueCell);
+
+                }
+                //once map is ready store it inside the list
+                empListMap.add(rowMap);
 
             }
-            //once map is ready store it inside the list
-            empListMap.add(rowMap);
+        }catch (IOException io){
+            io.printStackTrace();
         }
-        //once map is ready store it inside the list
+        //Class that brings the data in the form of bytes into the memory
+
         return empListMap;
     }
 

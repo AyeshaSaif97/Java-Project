@@ -20,4 +20,7 @@ public class E8Scanner {
         }else if(name.equals("Laura")){
             System.out.println("Stop the dad jokes, please!");
         }
+        else{
+            System.out.println("Invalid Entry");
+        }
 }}

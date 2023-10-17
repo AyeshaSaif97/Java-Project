@@ -10,6 +10,8 @@ public class HomeWork2 {
         System.out.println("Please Enter your Age");
         int age=scanner.nextInt();
 
+
+
         if(age>=18){
             System.out.println("Your driver license will be issued");
         } else {

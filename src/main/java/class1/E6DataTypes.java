@@ -16,6 +16,11 @@ public class E6DataTypes {
         String name="Aman";
         System.out.println(name);
 
+        System.out.println(isHungry);
+        System.out.println(isRaining);
+        System.out.println(wife);
+        System.out.println(husband);
+        System.out.println(symbol);
 
     }
 }

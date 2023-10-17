@@ -9,6 +9,7 @@ public class E3StringConCatDemo {
         String msg="my salary is";
         String space=" ";
         System.out.println(msg+space+salary);
+        System.out.println(msg+" "+salary);
 
 
 
